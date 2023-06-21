@@ -1,0 +1,68 @@
+/* Reset Completo CSS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  /* font-family: 'Orbitron', sans-serif !important; */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Paletas utilizadas */
+:root {
+  --darkblue: #000821;
+  --lightblue: #69AADD;
+  --midblue: #0D2C5A;
+  --grey: #76A392;
+  --pear: #C4EC21;
+
+}
