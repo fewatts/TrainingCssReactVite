@@ -1,0 +1,24 @@
+body{
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+}
+
+h1{
+    background-color: var(--pear);
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: cadetblue;
+    margin: 50px;
+    padding-top: 40px;
+    padding-bottom:  10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--pear);
+}
