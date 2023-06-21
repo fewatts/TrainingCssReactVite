@@ -1,4 +1,14 @@
-/* Reset Completo CSS */
+/* Reset CSS */
+
+/*
+
+  # -> id
+  . -> class
+  : -> pseudoclass
+  :: -> pseudoelement
+  > -> children
+
+ */
 
 *,
 *::before,
@@ -8,7 +18,7 @@
 
 * {
   margin: 0;
-  /* font-family: 'Orbitron', sans-serif !important; */
+  /* font-family: 'Orbitron', sans-serif; */
 }
 
 html,
@@ -57,7 +67,7 @@ a {
   text-decoration: none;
 }
 
-/* Paletas utilizadas */
+/* Pallets */
 :root {
   --darkblue: #000821;
   --lightblue: #69AADD;

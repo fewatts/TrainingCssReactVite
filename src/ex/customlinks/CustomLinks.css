@@ -1,0 +1,21 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+}
+
+a:hover{
+    color: var(--darkblue);
+}
+
+.special{
+    background-color: var(--pear);
+}
+
+.special::before{
+    content: "->";
+}
+
+.special::after{
+    content: "<-";
+}

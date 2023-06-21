@@ -1,0 +1,28 @@
+body{
+    background-color: var(--darkblue);
+    padding: 4rem;
+}
+
+div{
+    background-color: var(--pear);
+    text-align: center;
+    border: 0.1rem solid;
+    height: 10rem;
+    width: 85rem;
+    display: flex;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    text-align: center;
+    width: 27rem;
+    background-color: var(--grey);
+}
+
+div:hover{
+    background-color: var(--midblue);
+}
