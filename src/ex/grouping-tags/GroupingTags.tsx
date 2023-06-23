@@ -13,7 +13,7 @@ export function GroupingTags() {
             </header>
             <main>
                 <section id='subjects'>
-                    <h1>news</h1>
+                    <h1>News</h1>
                 </section>
                 <section id='news'>
                     <article>

@@ -1,12 +1,12 @@
 body{
-    background-color: var(--darkblue);
+    background-color: var(--lightblue);
     font-family: 'Times New Roman', Times, serif;
-    color: ghostwhite;
+    color: var(--darkblue);
 }
 
 nav{
-    background-color: var(--pear);
-    color: var(--darkblue);
+    background-color: var(--darkblue);
+    color: ghostwhite;
     font-weight: bold;
     font-size: 1.5rem;
     height: 2.5rem;
@@ -23,17 +23,28 @@ nav > a:hover{
 main{
     text-align: justify;
     padding: 4rem;
-    height: 38.5rem;
+    height: 39.2rem;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+#news{
+    box-shadow: -6px 10px 16px -2px black;
+    padding: 2rem;
 }
 
 aside{
     text-align: end;
+    font-weight: bold;
 }
 
 footer{
     text-align: center;
-    background-color: var(--pear);
-    color: var(--darkblue);
+    font-size: 25px;
+    background-color: var(--darkblue);
+    color: ghostwhite;
     font-weight: bold;
-    padding: 1.3rem;
+    padding: 0.5rem;
 }
