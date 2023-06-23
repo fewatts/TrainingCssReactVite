@@ -1,0 +1,39 @@
+body{
+    background-color: var(--darkblue);
+    font-family: 'Times New Roman', Times, serif;
+    color: ghostwhite;
+}
+
+nav{
+    background-color: var(--pear);
+    color: var(--darkblue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 2.5rem;
+}
+
+nav > a{
+    margin-left: 14rem;
+}
+
+nav > a:hover{
+    color: yellowgreen;
+}
+
+main{
+    text-align: justify;
+    padding: 4rem;
+    height: 38.5rem;
+}
+
+aside{
+    text-align: end;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--pear);
+    color: var(--darkblue);
+    font-weight: bold;
+    padding: 1.3rem;
+}
