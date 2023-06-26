@@ -1,0 +1,74 @@
+/* --darkblue: #000821;
+  --lightblue: #69AADD;
+  --midblue: #0D2C5A;
+  --grey: #76A392;
+  --pear: #C4EC21; */
+
+  /* Header and nav */
+
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, var(--lightblue),  var(--midblue));
+    padding: 1.1rem;
+    color: var(--ghostwhite);
+}
+
+nav{
+    background-color: var(--midblue);
+    color: #f8f8ff;
+}
+
+nav > a{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+}
+
+nav > a:hover{
+    color: rgb(161, 161, 161);
+}
+
+/* Main */
+
+body{
+    background-color: var(--lightblue);
+}
+
+main{
+    background-color: var(--ghostwhite);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 2rem;
+    margin: auto;
+    box-shadow: 0px 20px 10px 15px rgba(0, 0, 0, 0.281);
+}
+
+p{
+    margin-bottom: 3rem;
+}
+
+aside{
+    margin-bottom: 3rem;
+}
+
+main img{
+    width: 100%;
+}
+
+main img#imgandroid{
+    width: 50%;
+    margin: auto;
+}
+
+aside > li{
+    display: flex;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--midblue);
+    text-align: center;
+    color: var(--ghostwhite);
+    height: 50px;
+    padding-top: 15px;
+}

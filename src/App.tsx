@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { GroupingTags } from './ex/grouping-tags/GroupingTags'
+import { ChallangeOne } from './challanges/one/ChallangeOne'
+// import { GroupingTags } from './ex/grouping-tags/GroupingTags'
 // import { HandsOnBoxModel } from './ex/hands-on-boxmodel-prt-2/HandsOnBoxModel'
 // import { BoxModel } from './ex/boxmodel/BoxModel'
 // import { CustomLinks } from './ex/customlinks/CustomLinks'
@@ -17,7 +18,8 @@ function App() {
         {/* <Route path='/' element={<CustomLinks/>}/> */}
         {/* <Route path='/' element={<BoxModel/>}/> */}
         {/* <Route path='/' element={<HandsOnBoxModel/>}/> */}
-        <Route path='/' element={<GroupingTags/>}/>
+        {/* <Route path='/' element={<GroupingTags/>}/> */}
+        <Route path='/' element={<ChallangeOne/>}/>
       </Routes>
     </BrowserRouter>
   )
