@@ -45,7 +45,7 @@ export function ChallangeOne() {
 
                     <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 
-                    <div><iframe src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+                    <div className='video'><iframe src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
 
                     <aside>
                         <h3>Quer aprender mais?</h3>
